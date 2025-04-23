@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=League+Spartan:400,500,700&display=swap');
+
+body {
+    font-family: 'League Spartan', sans-serif !important;
+}
+
+.cs-w-45 {
+    width: 45% !important;
+}
+
+.cs-w-75 {
+    width: 75% !important;
+}
+
+/*Background*/
+.cs-bg {
+    background-color: white;
+    background: url('../images/bg-pattern-top-desktop.svg') no-repeat top left / auto,
+                url('../images/bg-pattern-bottom-desktop.svg') no-repeat bottom right / auto;
+}
+
+.cs-bg-topitem {
+    background-color: hsl(300, 24%, 96%) !important;
+}
+
+.cs-bg-magenta {
+    background-color: hsl(300, 43%, 22%) !important;
+}
+
+/*Font*/
+.cs-tc-magenta {
+    color: hsl(300, 43%, 22%) !important;
+}
+
+.cs-tc-pink {
+    color: hsl(333, 80%, 67%) !important;
+}
+
+.cs-fw-500 {
+    font-weight: 500 !important;
+}
+
+.cs-fw-700 {
+    font-weight: 700 !important;
+}
+
+@media (max-width: 991px) {
+    .cs-w-75, .cs-w-45 {
+        width: 100% !important;
+    }
+}
